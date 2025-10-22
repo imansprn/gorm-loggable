@@ -1,4 +1,4 @@
-module github.com/gobliggg/gorm-loggable
+module github.com/imansprn/gorm-loggable
 
 go 1.22
 

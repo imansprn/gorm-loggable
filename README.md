@@ -3,7 +3,7 @@
 [![Go Version](https://img.shields.io/badge/go-%3E%3D1.22-blue.svg)](https://golang.org/)
 [![GORM Version](https://img.shields.io/badge/gorm-v2-green.svg)](https://gorm.io/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gobliggg/gorm-loggable)](https://goreportcard.com/report/github.com/gobliggg/gorm-loggable)
+[![Go Report Card](https://goreportcard.com/badge/github.com/imansprn/gorm-loggable)](https://goreportcard.com/report/github.com/imansprn/gorm-loggable)
 
 A GORM v2 plugin for automatic audit logging. Track model changes in a `change_logs` table with minimal setup.
 
@@ -18,7 +18,7 @@ A GORM v2 plugin for automatic audit logging. Track model changes in a `change_l
 ## Installation
 
 ```bash
-go get github.com/gobliggg/gorm-loggable
+go get github.com/imansprn/gorm-loggable
 ```
 
 ## Quick start
@@ -30,7 +30,7 @@ import (
 	"context"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
-	loggable "github.com/gobliggg/gorm-loggable"
+	loggable "github.com/imansprn/gorm-loggable"
 )
 
 type User struct {
